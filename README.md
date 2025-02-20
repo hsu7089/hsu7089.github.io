@@ -1,4 +1,4 @@
-##這裡是hsu7089ㄉ爛泥網站！
+這裡是hsu7089ㄉ爛泥網站！
 
 <!--
 **hsu7089/hsu7089** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
