@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>唐詩三百首</title>
+    </head>
+
+    <body>
+    <img src="HEEHE.png" alt="咏鵝">
+
+        <h1>咏鵝 駱賓王</h1>
+        <p>
+            鵝　鵝　鵝，<br>
+            曲項向天歌。<br>
+            白毛浮綠水，<br>
+            紅掌撥清波。<br>
+        </p>
+
+    </body>
+
+</html>
