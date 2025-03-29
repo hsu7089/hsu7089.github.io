@@ -3,25 +3,56 @@
 <html>
 
 <head>
-
     <title>HSU HSIN I的網站</title>
+    <style>
+        .row {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
 
+        .row:nth-child(2) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .mycard {
+            border: 1px solid #ccc;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
 </head>
 
 <body>
+    <div class="row">
+        <div class="mycard">
+            <h1>2025/2/25 我的網站</h1>
+            <p><a href="https://sites.google.com/stu.ntue.edu.tw/hsu7089">https://sites.google.com/stu.ntue.edu.tw/hsu7089</a></p>
+        </div>
 
-    <h1>2025/2/25 我的網站</h1>
-    <p><a href="https://sites.google.com/stu.ntue.edu.tw/hsu7089">https://sites.google.com/stu.ntue.edu.tw/hsu7089</a>
-    </p>
+        <div class="mycard">
+            <h2>2025/3/4 詐騙網站</h2>
+            <p><a href="https://sites.google.com/stu.ntue.edu.tw/hsu7089">https://sites.google.com/stu.ntue.edu.tw/hsu7089</a></p>
+        </div>
 
-    <h2>2025/3/4 詐騙網站</h2>
-    <p><a href="https://md.ntue.edu.tw/">https://sites.google.com/stu.ntue.edu.tw/hsu7089</a></p>
+        <div class="mycard">
+            <h3>2025/3/4 唐詩三百首</h3>
+            <p><a href="0311/0311_index.html">0311/0311_index.html</a></p>
+        </div>
+    </div>
 
-    <h3>2025/3/4 唐詩三百首</h3>
-    <p><a href="0311/0311_index.html">https://sites.google.com/stu.ntue.edu.tw/hsu70890311/0311_index</a></p>
+    <div class="row">
+        <div class="mycard">
+            <h4>2025/3/18 米津玄師 Kenshi Yonezu - Lemon</h4>
+            <p><a href="0318/0318_index.html">0318/0318_index.html</a></p>
+        </div>
 
-    <h3>2025/3/18 米津玄師 Kenshi Yonezu - Lemon
-    <p><a href="0318/0318_index.html">https://sites.google.com/stu.ntue.edu.tw/hsu70890318/0318_index</a></p>
+        <div class="mycard">
+            <h5>2025/3/18 五首詩 </h5>
+            <p><a href="0325/0325_index.html">0325/0325_index.html</a></p>
+        </div>
+    </div>
 </body>
 
 </html>
