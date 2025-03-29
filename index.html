@@ -5,21 +5,47 @@
 <head>
     <title>HSU HSIN I的網站</title>
     <style>
-        .row {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
         }
 
-        .row:nth-child(2) {
-            grid-template-columns: repeat(2, 1fr);
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            max-width: 800px;
         }
 
         .mycard {
-            border: 1px solid #ccc;
-            padding: 15px;
+            flex: 1 1 calc(33.333% - 20px); /* 三等分 */
+            box-sizing: border-box;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
             text-align: center;
-            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .mycard:nth-child(4),
+        .mycard:nth-child(5) {
+            flex: 1 1 calc(50% - 20px); /* 下列兩個 */
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -33,16 +59,14 @@
 
         <div class="mycard">
             <h2>2025/3/4 詐騙網站</h2>
-            <p><a href="https://sites.google.com/stu.ntue.edu.tw/hsu7089">https://sites.google.com/stu.ntue.edu.tw/hsu7089</a></p>
+            <p><a href="https://zh.wikipedia.org/zh-tw/%E9%B9%85">https://sites.google.com/stu.ntue.edu.tw/hsu7089</a></p>
         </div>
 
         <div class="mycard">
             <h3>2025/3/4 唐詩三百首</h3>
             <p><a href="0311/0311_index.html">0311/0311_index.html</a></p>
         </div>
-    </div>
 
-    <div class="row">
         <div class="mycard">
             <h4>2025/3/18 米津玄師 Kenshi Yonezu - Lemon</h4>
             <p><a href="0318/0318_index.html">0318/0318_index.html</a></p>
